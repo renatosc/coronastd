@@ -4,6 +4,18 @@
 
 ## How to use
 
-Add the `coronastd.lua` file to the root of your project. Then add the following line to your `.luacheckrc`:
+### Option 1: Using luarocks
+
+Install `coronastd` via luarocks:
+
+    $ luarocks install coronastd
+
+### Option 2: Manual download
+
+Download the `coronastd.lua` file to the root of your project.
+
+### Configure luacheck
+
+Add the following line to your `.luacheckrc`:
 
     std = require('coronastd')
