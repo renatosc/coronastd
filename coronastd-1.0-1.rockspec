@@ -1,8 +1,9 @@
 -- luacheck: no global
 package = 'coronastd'
-version = 'scm-1'
+version = '1.0-1'
 source = {
-  url = 'git+https://github.com/HappyPaladin/coronastd'
+  url = 'git+https://github.com/HappyPaladin/coronastd',
+  tag = 'v1.0'
 }
 description = {
   summary = 'Luacheck standard set of globals (std) for Corona SDK',
