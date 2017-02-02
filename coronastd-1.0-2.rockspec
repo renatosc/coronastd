@@ -1,6 +1,6 @@
 -- luacheck: no global
 package = 'coronastd'
-version = '1.0-1'
+version = '1.0-2'
 source = {
   url = 'git+https://github.com/HappyPaladin/coronastd',
   tag = 'v1.0'

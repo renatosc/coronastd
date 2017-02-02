@@ -1,7 +1,7 @@
 local stds = require('luacheck.stds')
 local utils = require('luacheck.utils')
 
-local corona = {
+local corona = utils.concat_arrays({ stds.lua51, {
   'audio',
   'display',
   'easing',
@@ -14,6 +14,9 @@ local corona = {
   'system',
   'timer',
   'transition',
-}
+}})
 
-return utils.concat_arrays({ stds.lua51, corona })
+corona._G = true
+corona.package = true
+
+return corona
